@@ -12,7 +12,7 @@ import BisVideos from "@meronex/icons/bi/BisVideos";
 import AiFillGithub from "@meronex/icons/ai/AiFillGithub";
 
 // Css to change the style of the Focusable Component
-import "../css/button.css";
+import "../styles/button.css";
 
 function Card(props) {
   const history = useHistory();
@@ -40,7 +40,7 @@ function Card(props) {
 
   return (
     <Focusable className={"card"} onClickEnter={onClick} onFocus={props.focus}>
-      <img className="card-image" src={props.image} />
+      <img className="card-image" src={props.image} alt="Card" />
     </Focusable>
   );
 }

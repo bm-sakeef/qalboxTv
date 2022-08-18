@@ -9,7 +9,7 @@ import EnControllerFastForward from "@meronex/icons/en/EnControllerFastForward";
 import EnControllerFastBackward from "@meronex/icons/en/EnControllerFastBackward";
 import FdPause from "@meronex/icons/fd/FdPause";
 // Css to change the style of the Focusable Component
-import "../css/button.css";
+import "../styles/button.css";
 
 function ButtonVideoPlayer(props) {
   const vidRef = useRef(null);
@@ -23,6 +23,8 @@ function ButtonVideoPlayer(props) {
         return <EnControllerFastForward />;
       case "left":
         return <EnControllerFastBackward />;
+      default:
+        return <></>;
     }
   };
 

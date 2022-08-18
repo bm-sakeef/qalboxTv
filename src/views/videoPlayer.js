@@ -73,7 +73,7 @@ function VideoPlayer(props) {
       window.removeEventListener("keydown", keyHandler);
       clearTimeout(timer1);
     };
-  }, []);
+  });
 
   return (
     <div style={{ backgroundColor: "black", overflow: "hidden" }}>

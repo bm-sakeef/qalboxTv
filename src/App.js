@@ -1,12 +1,12 @@
 import React from "react";
 
 // Pages
-import Home from "./pages/home";
-import Videos from "./pages/videos";
-import VideoPlayer from "./pages/videoPlayer";
-import Spinners from "./pages/spinners";
-import About from "./pages/about";
-import Exit from "./pages/exit";
+import Home from "./views/home";
+import Videos from "./views/videos";
+import VideoPlayer from "./views/videoPlayer";
+import Spinners from "./views/spinners";
+import About from "./views/about";
+import Exit from "./views/exit";
 
 // Modules
 import SpatialNavigation from "react-js-spatial-navigation";

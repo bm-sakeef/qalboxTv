@@ -4,7 +4,7 @@ import React from "react";
 import { Focusable } from "react-js-spatial-navigation";
 
 // Css to change the style of the Focusable Component
-import "../css/button.css";
+import "../styles/button.css";
 
 function ButtonLabel(props) {
   return (

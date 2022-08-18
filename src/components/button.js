@@ -12,7 +12,7 @@ import BisVideos from "@meronex/icons/bi/BisVideos";
 import AiFillDashboard from "@meronex/icons/ai/AiFillDashboard";
 
 // Css to change the style of the Focusable Component
-import "../css/button.css";
+import "../styles/button.css";
 
 function Button(props) {
   const history = useHistory();

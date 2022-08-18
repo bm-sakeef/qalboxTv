@@ -14,7 +14,6 @@ function Sidebar(props) {
 
   return !props.sideBarIsHidden ? (
     <div className={props.focusedInSidebar ? "sidebar-wider" : "sidebar"}>
-      <img className="logo-sidebar" src={logo}/> 
       <div>
         <Button
           icon="home"
